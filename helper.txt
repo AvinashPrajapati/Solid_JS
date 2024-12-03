@@ -1,0 +1,25 @@
+
+npm create vite@latest
+/..............
+npx degit solidjs/templates/js my-app
+
+cd app_name
+
+bun install
+
+bun dev
+
+/---------
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+
+content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
